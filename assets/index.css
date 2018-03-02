@@ -1,0 +1,325 @@
+/*
+main css for exams app
+*/
+
+body{
+    background-color: #1a1a1a;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+
+.header{
+  background-color: #fff;
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+.subject-name-btn{
+    background-color: #E64A19;
+    font-weight: lighter;
+    margin-bottom: 5%;
+    margin-top: -4px;
+}
+
+
+.logo-header{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5%;
+  margin-top: -8px;
+}
+@media (min-width: 768px) {
+  .logo-header{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5%;
+    margin-top: -4px;
+  }
+ }
+.logo-header:hover{
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  cursor: pointer;
+}
+
+.links-section{
+  min-height: 55px;
+  max-height: 70px;
+  height: 50px;
+  background-color: #ed5729;
+  font-family: 'handybold';
+  color: #fff;
+  font-weight: bold;
+  padding-top: 4%;
+  padding-bottom: 13%;
+  padding-left: 3%;
+  text-align: left;
+}
+
+.link-tabs {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.link-tabs span:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+@media(min-width: 768px){
+  .links-section{
+    min-height: 55px;
+    max-height: 70px;
+    height: 50px;
+    background-color: #ed5729;
+    font-family: 'handybold';
+    color: #fff;
+    font-weight: bold;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    text-align: left;
+  }
+  .link-tabs {
+    color: #fff;
+    font-size: 1.6em;
+  }
+}
+
+.lead-instruction{
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.6em;
+  text-align: center;;
+}
+
+#ID-main-section{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.subject-btn{
+  min-height: 12%;
+  max-height: 12%;
+  max-width: 80%;
+  min-width: 80%;
+  color: #fff;
+  font-size: 1.3em;
+  background-color: #436bb3;
+  margin-bottom: 2%;
+}
+
+
+@media(min-width: 768px){
+  .subject-btn{
+    min-height: 13%;
+    max-height: 13%;
+    max-width: 30%;
+    min-width: 30%;
+    color: #fff;
+    font-size: 1.3em;
+    background-color: #436bb3;
+    margin-bottom: 1%;
+  }
+}
+
+
+.exam-btn{
+    min-height: 10%;
+    max-height: 10%;
+    max-width: 80%;
+    min-width: 80%;
+    color: #fff;
+    font-size: 1.2em;
+    background-color: #436bb3;
+    margin-bottom: 1%;
+
+}
+
+@media(min-width: 768px){
+  .exam-btn{
+      min-height: 10%;
+      max-height: 10%;
+      max-width: 45%;
+      min-width: 45%;
+      color: #fff;
+      font-size: 1.2em;
+      background-color: #436bb3;
+      margin-bottom: 1%;
+
+  }
+}
+
+.questionsTemplate{
+    background-color: #f0f0dc;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 30px;
+    color: #303030;
+    min-height: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: auto;
+    padding-bottom: 1% !important;
+    padding-top: 0;
+    overflow-y: auto;
+    height: 100%;
+    min-height: 400px;
+}
+
+@media(min-width: 768px){
+    .questionsTemplate{
+    background-color: #f0f0dc;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 30px;
+    color: #303030;
+    min-height: 100%;
+    width: 65%;
+    padding-top: 0;
+    font-size: 1.6em;
+    padding-bottom: 1% !important;
+    overflow-y: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: auto;
+    height: 100%;
+    min-height: 400px;
+}
+}
+
+.questionHeader{
+  font-weight: normal !important;
+  font-size: .8em;
+}
+
+.examTimer{
+  color: grey;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+.questionNavBtn{
+  cursor: pointer;
+  height: 60%;
+  width: 60%;
+}
+
+@media(min-width: 768px){
+  .questionNavBtn{
+    cursor: pointer;
+    height: 50%;
+    width: 50%;
+  }
+}
+
+.questionChoice{
+    min-height: 20%;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+    background-color: #436bb3;
+    text-align-last: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 1.5%;
+
+}
+
+
+@media(min-width: 768px){
+    .questionChoice{
+
+    min-height: 20%;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+    background-color: #436bb3;
+    text-align-last: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 1.5%;
+}
+}
+
+.questionChoice:hover{
+    background-color: #6bc8c4;
+}
+
+.imageResource{
+  background-repeat: no-repeat;
+  background-size: 600px 738px;
+  background-position: 0px 0px;
+}
+.circularMarks{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #ed5729;
+  border-width: 2px;
+  font-size: 2em;
+  font-weight: bolder;
+  border-style: solid;
+  border-color: #000;
+  color: #fff;
+  text-align: center;
+  padding-top: 11%;
+  padding-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+  .circularMarks{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: #ed5729;
+    border-width: 2px;
+    font-size: 2em;
+    font-weight: bolder;
+    border-style: solid;
+    border-color: #000;
+    color: #fff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
+
+.wrong-questions{
+  background-color: #fff;
+  margin-top: 4px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 2%;
+}
+.question-number-feedback{
+  border-radius: 50%;
+  background-color: #ed5729;
+  border-width: 1px;
+  width: 80px;
+  height: 80px;
+}
+
+
+#ID-named-subject-tab{
+ font-family: arial;
+}

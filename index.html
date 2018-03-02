@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>eLimu Exams</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  jax: ["input/TeX","input/MathML","output/HTML-CSS","output/NativeMML", "output/PreviewHTML"],
+  extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js", "fast-preview.js", "AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
+  TeX: {
+    extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
+  },
+
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  }
+});
+</script>
+<script type="text/javascript" src="./assets/date.js"></script>
+<script type="text/javascript" src="./assets/MathJax.js"></script>
+<script type="text/javascript" src="./assets/jquery.js"></script>
+<script type="text/javascript" src="./assets/jquery-timer.js"></script>
+<script type="text/javascript" src="./assets/momentjs.js"></script>
+
+</head>
+<body>
+
+<!-- links section -->
+<div class="container-fluid">
+  <div class="row links-section">
+      <div class="col-sm-6 link-tabs" id="ID-link-tabs">
+        <span id="ID-header-image"><img src="./assets/images/logo_v1.png" class="img logo-header"></span>
+
+          &nbsp;&nbsp;
+          <span id="ID-named-subject-tab"></span>
+      </div>
+      <div class="col-sm-6">
+        <!-- empty right side -->
+      </div>
+  </div>
+</div>
+<!-- end links section -->
+
+<!-- Lead instruction the current action for example, "choose subject" -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+        <h2 class="lead-instruction" id="ID-lead-instruction">Choose a subject</h2>
+    </div>
+  </div>
+</div>
+<!-- end lead instruction -->
+
+
+<!-- Main section  -->
+<!-- Manipulated to render subjects, exams, questions etc -->
+<div class="container">
+  <div class="row">
+      <div class="col-sm-12" id="ID-main-section">
+
+      </div>
+  </div>
+</div>
+<!-- end main section -->
+
+
+<script src="./dist/index.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
+</body>
+
+</html>
